@@ -6,6 +6,7 @@
 #include "CManager.h"
 #include "CBoss.h"
 #include <unistd.h>
+
  #include <conio.h>
 
 void test();                           // global declaration
