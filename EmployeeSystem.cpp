@@ -7,7 +7,7 @@
 #include "CBoss.h"
 #include <unistd.h>
 
- #include <conio.h>
+// #include <conio.h>
 
 void test();                           // global declaration
 void runSystem(CCtrlSystem &workCtrl); // global declaration
