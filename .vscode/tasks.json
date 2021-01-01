@@ -1,0 +1,39 @@
+// tasks.json
+{
+    // https://code.visualstudio.com/docs/editor/tasks
+    //在当前文件是C++的情况下，tasks可以被用来做编译，而launch用来执行编译好的文件。
+    "version": "2.0.0",
+    "options": {
+        "cwd": "${workspaceFolder}/build"//enter in absolute path 
+    },
+    "tasks": [
+        {
+            "type": "shell",
+            "label":"cmake",
+            "command":"cmake",
+            "args": [
+                ".."
+            ]
+        },
+        {
+            "label": "make",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "command":"make",
+            "args": [
+
+            ]
+        },
+        {
+            "label": "Build",//the label`s name is consistent with preLaunchTask in launch.json
+            //depends on label:make &label:cmake
+                            "dependsOrder": "sequence",
+            "dependsOn":[
+                "cmake",
+                "make"
+            ]
+        }
+    ]
+}

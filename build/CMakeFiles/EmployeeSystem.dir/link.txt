@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11 -O3 -DNDEBUG  -rdynamic CMakeFiles/EmployeeSystem.dir/EmployeeSystem.cpp.o CMakeFiles/EmployeeSystem.dir/src/CCtrlSystem.cpp.o CMakeFiles/EmployeeSystem.dir/src/CWorker.cpp.o CMakeFiles/EmployeeSystem.dir/src/CEmployee.cpp.o CMakeFiles/EmployeeSystem.dir/src/CManager.cpp.o CMakeFiles/EmployeeSystem.dir/src/CBoss.cpp.o  -o EmployeeSystem 

@@ -1,0 +1,3 @@
+/home/lansely/code_initial/ManageSystem/build/CMakeFiles/rebuild_cache.dir
+/home/lansely/code_initial/ManageSystem/build/CMakeFiles/edit_cache.dir
+/home/lansely/code_initial/ManageSystem/build/CMakeFiles/EmployeeSystem.dir
